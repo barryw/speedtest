@@ -1,0 +1,22 @@
+{
+  "entries": {
+    "brew": {
+      "speedtest-cli": {
+        "version": "2.1.2",
+        "bottle": false
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "big_sur": {
+        "HOMEBREW_VERSION": "2.7.5",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "5db90c74ba59040f7eb24bb6ef6c73d1c7b85cb6",
+        "CLT": "",
+        "Xcode": "12.4",
+        "macOS": "11.2"
+      }
+    }
+  }
+}

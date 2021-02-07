@@ -1,0 +1,3 @@
+<%= line_chart Result.group_by_minute(:created_at).average(:ping_ms), refresh: 60 %>
+
+<%= line_chart [{name: "DL Speed", data: @download_speed},{name: "UP Speed", data: @upload_speed}], thousands: ",", bytes: true, refresh: 60 %>
